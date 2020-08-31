@@ -1,3 +1,3 @@
 #this is a sample est fle s
-x = 10
+x = int(10)
 prnt(" vaue of x :" + x)
