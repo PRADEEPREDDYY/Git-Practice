@@ -1,3 +1,3 @@
-#this is a sample est fle s
-x = int(10)
+# this is a sample est fle s
+x = str(10)
 print(" value of x :" + x)
