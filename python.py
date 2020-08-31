@@ -13,6 +13,12 @@ print(f.readline())
 print(f.readline())
 # f.write("\n line 17")
 f.close()
+
+if os.path.exists("file2.txt"):
+    os.remove("file2.txt")
+    print("file2 deleted")
+else:
+    print("file2 not present")
 # os.remove("file4.txt")
 a = str(5)
 def fun1():
