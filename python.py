@@ -8,10 +8,10 @@ print(" value of x :" + ax)
 
 print("completed the if loop")
 
-f = open("file635.txt", "x")
-# print(f.readline())
-# print(f.readline())
-f.write("\n line 17")
+f = open("file4.py", "r")
+print(f.readline())
+print(f.readline())
+# f.write("\n line 17")
 f.close()
 # os.remove("file4.txt")
 a = str(5)
@@ -22,7 +22,8 @@ def fun1():
             print(a)
         a, b =b, (a+b)
         print(a)
-print("a value " + a)
-print("done with while loop")
 
 fun1()
+
+print("a value " + a)
+print("done with while loop")
