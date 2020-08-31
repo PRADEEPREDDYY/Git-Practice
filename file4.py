@@ -1,4 +1,4 @@
-# this is a sample est fle s
+# this is a sample test file
 ax = str(10)
 print(" value of x :" + ax)
 
@@ -12,8 +12,8 @@ def function1(x,y):
     elif y == 20:
         print("y is 20")
     else:
-        print("x is nt 10")
+        print("x is neither 10 nor 20 ")
     return x
 function1(1,0)
 
-print("completed the lop")
+print("completed the if loop")
